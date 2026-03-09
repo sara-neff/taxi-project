@@ -1,0 +1,14 @@
+# ignore file ending with .sqlite and .db
+# because database files can be large 
+# and usually shouldn't be versioned
+*.sqlite
+*.db
+# these are automatically created folder
+# that you usually don't want in git
+# because they are temporary files
+__pycache__/
+.ipynb_checkpoints/
+# parquet files are large so we ignore them
+data/
+.vscode/
+.DS_Store
