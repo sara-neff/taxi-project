@@ -9,6 +9,7 @@
 __pycache__/
 .ipynb_checkpoints/
 # parquet files are large so we ignore them
-data/
+data/cleaned/
+data/raw/
 .vscode/
 .DS_Store
